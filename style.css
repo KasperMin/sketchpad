@@ -1,0 +1,32 @@
+
+
+button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  width: 150px;
+  height: 70px;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.container {
+  position: relative;
+  left: 50%;
+}
+
+.boxColum{
+  position: relative;
+  left: -200px;
+  clear: left;
+  float:left;
+  border: 1px solid;
+
+}
+
+.boxRow {
+  position: relative;
+  left: -200px;
+  float:left;
+  border: 1px solid;
+}
