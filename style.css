@@ -1,13 +1,29 @@
+html {
+  height: 100%;
+  margin: 0 auto;
+}
+
+body {
+  background: #466368;
+  background: -webkit-linear-gradient(to right bottom, #283c86, #45a247);
+  background:    -moz-linear-gradient(to right bottom, #283c86, #45a247);
+  background:         linear-gradient(to right bottom, #283c86, #45a247);
+  overflow: hidden;
+}
 
 
 button {
+  background: linear-gradient(to left bottom, #d9a7c7,#fffcdc);
+  border: 1px solid white;
+  border-radius: 2px;
   display: block;
-  margin: 0 auto;
+  margin: 100px auto;
   margin-bottom: 40px;
   width: 150px;
   height: 70px;
   padding: 15px;
   font-size: 20px;
+  font-family: helvetica;
 }
 
 .container {
